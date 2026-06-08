@@ -42,3 +42,4 @@ A comprehensive University Management System that facilitates the management of 
 |------|----------|----------|
 | Administrator | admin | administrator |
 | Student | 00128 | 12345 |
+| Instructor | 10101 | 12345 |
