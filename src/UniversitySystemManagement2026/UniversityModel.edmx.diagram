@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1639bc35110c4287a92d1662992ef9e0" Name="Diagram1" ZoomLevel="47">
+        <EntityTypeShape EntityType="UniversityModel.advisor" Width="1.5" PointX="9.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.classroom" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.course" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.department" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.instructor" Width="1.5" PointX="7.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.section" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.student" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.take" Width="1.5" PointX="7.5" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.time_slot" Width="1.5" PointX="9.75" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="UniversityModel.FK__advisor__i_ID__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__advisor__s_ID__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__section__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__course__dept_nam__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__section__course___6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__instructo__dept___66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__student__dept_na__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__takes__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__takes__ID__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.prereq" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.teaches" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="UniversityModel.user" Width="1.5" PointX="0.75" PointY="9.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
