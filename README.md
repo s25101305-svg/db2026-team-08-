@@ -32,7 +32,7 @@ A comprehensive University Management System that facilitates the management of 
 
 1. Open **SSMS** and run `database/schema.sql` to create the database
 2. Run `database/seed_data.sql` to insert sample data
-3. Open `src/UniversitySystemManagement2026.slnx` in Visual Studio 2022
+3. Open `src/University SystemManagement 2026.slnx` in Visual Studio 2022
 4. Update the connection string in `App.config` if needed
 5. Press **F5** to run the application
 
