@@ -25,7 +25,7 @@ A comprehensive University Management System that facilitates the management of 
 - Role-based login (Administrator, Instructor, Student)
 - Student course enrollment and drop
 - Instructor grade submission
-- Admin user, course, and department management
+- Admin user, course, department, and schedule management
 - Reporting and analytics dashboard
 
 ## How to Run
